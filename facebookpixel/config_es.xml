@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>facebookpixel</name>
+    <displayName><![CDATA[Facebook Pixel]]></displayName>
+    <version><![CDATA[0.1]]></version>
+    <description><![CDATA[This is the Facebook extension for Prestashop]]></description>
+    <author><![CDATA[Desarrollo IDSO Web]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall Facebook Pixel?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

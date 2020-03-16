@@ -1,0 +1,9 @@
+#quantity-discount-pro { clear: both }
+#quantity-discount-pro p.inline-label {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.bootstrap #quantity-discount-pro .form-horizontal .control-label {
+    text-align: left;
+}

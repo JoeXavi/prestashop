@@ -1,0 +1,88 @@
+#quantity-discount-pro { clear: both }
+#quantity-discount-pro p.inline-label {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#quantity-discount-pro select[multiple] { height: 150px }
+#quantity-discount-pro select option { white-space: normal; }
+
+.bootstrap #quantity-discount-pro .form-horizontal .control-label {
+    text-align: left;
+}
+
+.time-column {
+    width: auto;
+    height: 20px;
+    display: block;
+}
+
+.time-column.valid-date {
+    background: url(../img/valid.png) no-repeat center center;
+}
+
+.time-column.expired-date {
+    background: url(../img/expired.png) no-repeat center center;
+}
+
+.time-column.future-date {
+    background: url(../img/future.png) no-repeat center center;
+}
+
+.time-column.valid-date-icon { color: #72c279; }
+.time-column.future-date-icon { color: #f3e838; }
+.time-column.expired-date-icon { color: #e08f95; }
+
+.time-column [class^="icon-"] { font-size: 18px !important; }
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  background-color: #555;
+
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+/* Schedule */
+.colorBox {
+    cursor: pointer;
+    height: 45px;
+    border: 2px solid #888;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.colorBox.WorkingDayState {
+    border: 2px solid #4E8059;
+    background-color: #8ade8f;
+}
+
+.colorBox.RestDayState {
+    border: 2px solid #7a1c44;
+    background-color: #de5962;
+}
+
+.ui-timepicker-wrapper{overflow-y:auto;max-height:150px;width:6.5em;background:#fff;border:1px solid #ddd;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);-moz-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2);outline:0;z-index:10001;margin:0}.ui-timepicker-wrapper.ui-timepicker-with-duration{width:13em}.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-30,.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-60{width:11em}.ui-timepicker-list{margin:0;padding:0;list-style:none}.ui-timepicker-duration{margin-left:5px;color:#888}.ui-timepicker-list:hover .ui-timepicker-duration{color:#888}.ui-timepicker-list li{padding:3px 0 3px 5px;cursor:pointer;white-space:nowrap;color:#000;list-style:none;margin:0}.ui-timepicker-list:hover .ui-timepicker-selected{background:#fff;color:#000}li.ui-timepicker-selected,.ui-timepicker-list li:hover,.ui-timepicker-list .ui-timepicker-selected:hover{background:#1980EC;color:#fff}li.ui-timepicker-selected .ui-timepicker-duration,.ui-timepicker-list li:hover .ui-timepicker-duration{color:#ccc}.ui-timepicker-list li.ui-timepicker-disabled,.ui-timepicker-list li.ui-timepicker-disabled:hover,.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled{color:#888;cursor:default}.ui-timepicker-list li.ui-timepicker-disabled:hover,.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled{background:#f2f2f2}

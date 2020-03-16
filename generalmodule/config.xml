@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>generalmodule</name>
+	<displayName><![CDATA[General extension by IDSO Web]]></displayName>
+	<version><![CDATA[0.1 (alpha)]]></version>
+	<description><![CDATA[This is a general extension for multipurpose for Prestashop]]></author>
+	<author><![CDATA[Development by IDSO Web - Javier Saldaña]]></author>
+	<tab><![CDATA[analytics_stats]]></tab>
+	<confirmUninstall>Are you sure you want uninstall this module?</confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

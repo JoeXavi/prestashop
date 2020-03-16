@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>quantitydiscountpro</name>
+    <displayName><![CDATA[Promociones y descuentos (3x2, descuentos, campa&ntilde;as)]]></displayName>
+    <version><![CDATA[2.1.28]]></version>
+    <description><![CDATA[Aplica descuentos dependiendo de los productos del carrito]]></description>
+    <author><![CDATA[idnovate]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[¿Estás seguro que deseas eliminar el módulo y la información relacionada?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

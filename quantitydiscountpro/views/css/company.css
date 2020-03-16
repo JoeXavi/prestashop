@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#idnovate {
+    font-size: 13px;
+    clear: both;
+    color: #251b5b;
+}
+
+#idnovate a {
+    color: #251b5b;
+}
+
+#idnovate .icon-star {
+    color: #EFAF0F;
+}
+
+#idnovate .icon-medkit {
+    color: #FF0000;
+}
+
+#idnovate .panel-footer {
+    height: auto;
+}
+
+#idnovate .panel-footer img {
+    max-height : 55px;
+}
+
+#idnovate .developers,
+#idnovate .partnership {
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#idnovate .addons-link {
+    text-align: center;
+}
+
+#idnovate .partnership {
+    color: #DB0065;
+}
+
+#idnovate .column {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+
+#idnovate .module {
+    -webkit-transform: translateZ(0);
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #e3dfdf;
+    background: white;
+    height: 250px;
+    overflow: hidden;
+    font-family: "Montserrat", "Open Sans";
+    font-weight: 300;
+}
+
+#idnovate .module a {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 15px;
+    color: #353535;
+    outline: none;
+    text-decoration: none;
+}
+
+#idnovate .module a .icon-certified {
+    position: absolute;
+    right: 150px;
+    top: 5px;
+    display: block;
+    height: 25px;
+}
+
+#idnovate .module a .icon-certified img {
+    width: 23px;
+    height: auto;
+}
+
+#idnovate .module a .module-head .module-image {
+    margin: auto;
+    width: 57px;
+    height: 57px;
+}
+
+#idnovate .module a .module-head p.title-block-module {
+    min-height: 38px;
+    max-height: 40px;
+    font-weight: 400;
+    color: #000;
+    margin: 15px 0 5px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#idnovate .module a .module-body {
+    pointer-events: none;
+    position: relative;
+    min-height: 130px;
+}
+
+#idnovate .module a .module-body .module-entry {
+    overflow: hidden;
+}
+
+#idnovate .module a .module-body .module-entry p {
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 17px;
+    max-height: 100px;
+    color: #000;
+    text-align: center;
+}
+
+#idnovate .module a .module-body .badge-downloads {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-bottom: 5px;
+}
+
+#idnovate .module a .module-body .badge-downloads i {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.badges-downloads {
+    background: url(https://addons.prestashop.com/themes/prestastore/img/front/sprites/badges-s3e73c0c3f1.png) no-repeat;
+    background-position: 0 -730px;
+}
+
+#idnovate .module a .module-footer span.stars-block {
+    color: #353535;
+    font-size: 11px;
+}
+
+#idnovate .module a .module-footer span {
+    position: relative;
+    line-height: 20px !important;
+}
+
+#idnovate .module a .module-footer span.stars-block .stars {
+    width: 70px;
+}
+
+.stars {
+    font-family: "Material Icons";
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 85px;
+}
+
+.stars:after {
+    color: #fbbb22;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.stars.stars-0:before {
+    content:"" !important
+}
+
+.stars.stars-05:after {
+    content:"\E839"
+}
+
+.stars.stars-1:after {
+    content:"\E838"
+}
+
+.stars.stars-15:after {
+    content:"\E838\E839"
+}
+
+.stars.stars-2:after {
+    content:"\E838\E838"
+}
+
+.stars.stars-25:after {
+    content:"\E838\E838\E839"
+}
+
+.stars.stars-3:after {
+    content:"\E838\E838\E838"
+}
+
+.stars.stars-35:after {
+    content:"\E838\E838\E838\E839"
+}
+
+.stars.stars-4:after {
+    content:"\E838\E838\E838\E838"
+}
+
+.stars.stars-45:after {
+    content:"\E838\E838\E838\E838\E839"
+}
+
+.stars.stars-5:after {
+    content:"\E838\E838\E838\E838\E838"
+}
+
+.stars:before {
+    content: "\E838\E838\E838\E838\E838";
+    color: #cbc4c4;
+}
+
+#idnovate .module a .module-footer {
+    pointer-events: none;
+    padding: 0 15px;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+}
+
+#idnovate .module a .module-footer .module-hover p {
+    margin: 0;
+    width: 100%;
+    background: #251b5b;
+    border: 1px solid transparent;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    border-radius: 0;
+}
+
+#idnovate .module.module-modules:hover {
+    box-shadow: 0 5px 10px 1px #ece9e9;
+    border: solid 1px #e3dfdf;
+}
+#idnovate .module.module-modules {
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 990px) {
+    #idnovate .module {
+        height: 215px;
+    }
+}
